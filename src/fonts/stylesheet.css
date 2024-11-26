@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Bold.woff2') format('woff2'),
+        url('Geist-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Black.woff2') format('woff2'),
+        url('Geist-Black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Light.woff2') format('woff2'),
+        url('Geist-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Medium.woff2') format('woff2'),
+        url('Geist-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Regular.woff2') format('woff2'),
+        url('Geist-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist UltraBlack';
+    src: url('Geist-UltraBlack.woff2') format('woff2'),
+        url('Geist-UltraBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-SemiBold.woff2') format('woff2'),
+        url('Geist-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-UltraLight.woff2') format('woff2'),
+        url('Geist-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Thin.woff2') format('woff2'),
+        url('Geist-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCode-Medium.woff2') format('woff2'),
+        url('FiraCode-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCode-Bold.woff2') format('woff2'),
+        url('FiraCode-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCode-Light.woff2') format('woff2'),
+        url('FiraCode-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCode-Regular.woff2') format('woff2'),
+        url('FiraCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCode-Retina.woff2') format('woff2'),
+        url('FiraCode-Retina.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Geist{
+    font-family: 'Geist';
+    font-weight: 400;
+}
+
+.Geist-semibold{
+    font-family: 'Geist';
+    font-weight: 600;
+}
+
+.Fira-Code{
+    font-family:'Fira', Courier, monospace;
+    font-weight: 500;
+}
+
+.loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: black;
+    opacity: 20%;
+  }
+  
+  .loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 40px; /* Increased size for better visibility */
+    height: 40px; /* Increased size for better visibility */
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

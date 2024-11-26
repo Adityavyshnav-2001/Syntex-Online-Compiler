@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --editor-background-color: #0A001F; 
+}
+
+.CodeMirror *{
+  font-family:'Fira Code';
+  font-weight: 100;
+  font-size: 18px;
+}
